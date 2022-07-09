@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@500&family=Oswald:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Edu+SA+Beginner:wght@600&display=swap');
+
+body {
+  background-color: black;
+  font-family: 'Edu SA Beginner', cursive;
+  animation:  color 5s infinite;
+}
+
+h1 {
+  color: white;
+  text-align: center;
+}
+
+#page-header {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-250%);
+  font-size: 6em;
+  animation: mover 5s infinite;
+}
+
+p {
+  font-family: 'Oswald', sans-serif;
+  font-size: 20px;
+}
+
+#h1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-40%);
+  font-size: 2em;
+  color: white;
+}
+
+#h2 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(550%);
+  font-size: 1.5em;
+  color: white !important;
+}
+
+a {
+    color: white !important;
+}
